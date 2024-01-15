@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        for(let tahunawal = 1600; tahunawal <= 2024; tahunawal+=4){
+            if(tahunawal %4 == 0 && tahunawal % 100 !== 0){
+                console.log(tahunawal + 'tahun kabisat')
+        }
+        else if(tahunawal % 400 == 0 && tahunawal){
+            console.log(tahunawal + 'tahun kabisat')
+        }
+        else if(tahunawal % 100 == 0){
+            console.log(tahunawal + 'bukan kabisat');
+        }
+        else{
+            console.log(tahunawal + 'bukan kabisat');
+        }
+        }
+
+        let year = 1600
+        while(year<=2024){
+            if(year % 4 == 0 && year % 100 !== 0){
+                console.log(year + 'ktahun kabisat')
+            }
+            else if(year % 400 == 0){
+                console.log(year + 'ktahun kabisat')
+            }
+            else if(year % 100 == 0){
+                console.log(year + 'kbukan kabisat')
+            }
+            else{
+                console.log(year + 'kbukan kabisat')
+            }
+            year+=4
+        } 
+
+        let thn = 1600
+        do{
+        if(thn %4 == 0 && thn % 100 !== 0){
+            console.log(thn + 'ltahun kabisat')
+        }
+        else if(thn % 400 == 0){
+            console.log(thn + 'ltahun kabisat')
+        }
+        else if(thn % 100 == 0){
+            console.log(thn + 'lbukan kabisat')
+        }
+        else{
+            console.log(thn + 'lbukan kabisat')
+        }
+        thn+=4
+        }while (thn<=2404)
+    </script>
+</body>
+</html>
